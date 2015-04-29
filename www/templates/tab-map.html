@@ -1,9 +1,14 @@
 <ion-view view-title="Mappy">
   <ion-content class="mappy-map-content">
-    
-          <map center="current-location" zoom="15" disable-default-u-i="true" zoom-control="true" zoom-control-options="{position:'TOP_RIGHT'}">
-            <marker position="current-location"></marker>
-          </map>
-        
+  		  <!--<h1>asd asd</h1>
+          <map class="map" data-tap-disabled="true" center="{{position.lat}},{{position.lng}}" zoom="15" disable-default-u-i="true">
+	        <marker position="{{position.lat}},{{position.lng}}" visible="true"></marker>
+	      </map>-->
+	      <div map-lazy-load="http://maps.google.com/maps/api/js">
+			  <map class="map" data-tap-disabled="true" center="{{position.lat}},{{position.lng}}" zoom="15" disable-default-u-i="true">
+	        <marker position="{{position.lat}},{{position.lng}}" visible="true"></marker>
+	      </map>
+			</div>
+		        
   </ion-content>
 </ion-view>

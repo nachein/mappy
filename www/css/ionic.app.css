@@ -7619,5 +7619,5 @@ a.button {
   -webkit-transition-duration: 0s;
   transition-duration: 0s; }
 
-.mappy-map-content, .mappy-map-content > div, .mappy-map-content map {
+.mappy-map-content, .mappy-map-content > div, .mappy-map-content > div > div, .mappy-map-content map {
   height: 100%; }

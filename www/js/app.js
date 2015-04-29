@@ -16,7 +16,7 @@ angular.module('mappy', ['ionic', 'mappy.controllers', 'mappy.services', 'ngMap'
     }
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
-      StatusBar.styleLightContent();
+      StatusBar.styleDefault();
     }
   });
 })
